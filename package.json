@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+<<<<<<< HEAD
+    "dev": "nodemon src/index.js",
+    "prodution": "node src/index.js",
+    "start": "node src/index.js"
+=======
+    "start": "nodemon src/index.js",
+    "pro": "node src/index.js"
+>>>>>>> daf8a4a355c3b6423421436acef7fd625650f187
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.2",
+    "multer": "^1.4.2",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
